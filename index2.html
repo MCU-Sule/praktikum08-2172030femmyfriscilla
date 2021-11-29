@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="author" content="Femmy Friscilla Susilo 2172030">
+    <title>index 2</title>
+</head>
+<body>
+    <script>
+        let angka = parseInt(prompt("Bilangan yang ingin di cek: "))
+        let pengecek=0;
+        for(let a=1;a<=angka;a++){
+            if(angka%a ==0){
+                pengecek++
+            }
+        }
+        if(pengecek ==2){
+            document.write("Bilangan "+angka+" adalah bilangan prima");
+        }
+        else{
+            document.write("Bilangan "+angka+" bukan bilangan prima");
+        }
+        
+    </script>
+</body>
+</html>
